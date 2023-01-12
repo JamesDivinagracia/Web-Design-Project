@@ -1,2 +1,16 @@
 # Web-Design-Project
 This project is for my college. It's a "Nutrition website aimed at children".
+
+This final project will give me 70% of my overall Web Design grade. I should be able to:
+- Design the website to be easily understandable to children
+- Develop the code for the html of the website including the css or java and any web tools (optional)
+- It should teach children the nutritional values of foods in a simple and concise way. 
+  - It should teach children why vegetables and a balanced diet is neccessary for their growth.
+  - Easy recipies while being fun to make could be used as an example of a nutritous meal.
+- Lastly, I should make ways to make this easily read the code for any future planning or bug fixes
+
+
+
+
+# First phase: Design phase
+![image](https://user-images.githubusercontent.com/98755378/212028817-650959e3-55e1-431e-8385-be36030e348d.png)
