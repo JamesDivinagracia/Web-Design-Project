@@ -14,3 +14,6 @@ This final project will give me 70% of my overall Web Design grade. I should be 
 
 # First phase: Design phase
 ![image](https://user-images.githubusercontent.com/98755378/212028817-650959e3-55e1-431e-8385-be36030e348d.png)
+
+First off, what makes a website kid friendly? and how do we make it nutritional.
+
