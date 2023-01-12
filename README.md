@@ -17,3 +17,13 @@ This final project will give me 70% of my overall Web Design grade. I should be 
 
 First off, what makes a website kid friendly? and how do we make it nutritional.
 
+What makes a website nutritional:
+https://www.gethealthie.com/blog/best-tips-for-making-a-nutrition-website
+
+Ways to make it kid friendly:
+https://www.appypie.com/kids-website-builder
+https://www.rasmussen.edu/degrees/design/blog/web-design-for-kids/
+https://www.educationalappstore.com/website-lists
+
+
+
