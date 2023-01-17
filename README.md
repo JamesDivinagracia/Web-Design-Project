@@ -25,5 +25,6 @@ https://www.appypie.com/kids-website-builder
 https://www.rasmussen.edu/degrees/design/blog/web-design-for-kids/
 https://www.educationalappstore.com/website-lists
 
-
+Canva website initial design:
+https://www.canva.com/design/DAFX6XyFLgs/oSXxmzb3RPw2Wp6FqH04PQ/edit#
 
