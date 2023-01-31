@@ -34,7 +34,30 @@ https://www.educationalappstore.com/website-lists
 Canva website initial design:
 https://www.canva.com/design/DAFX6XyFLgs/oSXxmzb3RPw2Wp6FqH04PQ/edit#
 
+Canva is a free online design and publishing tool, I am using it due to its simple editing software akin to a Microsoft Powerpoint that has slides for every web page.
+
+Home Page:
+![image](https://user-images.githubusercontent.com/98755378/215793928-1aeb9867-9c1b-40ee-92db-123a2a4ad72d.png)
+
+Vegetable 'Arc':
+![image](https://user-images.githubusercontent.com/98755378/215795369-ec12a5ab-aa5f-46e9-9bfc-c3e83f7fc8e3.png)
+
+Meat 'Arc':
+![image](https://user-images.githubusercontent.com/98755378/215795521-2ef2c105-d37c-41a7-bbc1-ec2f8ef3693a.png)
+
+Carbohydrate 'Arc':
+![image](https://user-images.githubusercontent.com/98755378/215795662-bf721e40-9cf9-44ff-bbb1-f86553c72594.png)
+
+Ending/Conclusion:
+![image](https://user-images.githubusercontent.com/98755378/215795772-0692ebe6-f98d-43fe-973a-aeee82fdad7f.png)
+
+
+
 Site Map:
+![sitemap](https://user-images.githubusercontent.com/98755378/215793717-e90ea147-081a-419e-ba2a-0f548997683c.png)
+
+
+
 
 
 
