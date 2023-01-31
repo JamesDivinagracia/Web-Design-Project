@@ -51,10 +51,21 @@ Carbohydrate 'Arc':
 Ending/Conclusion:
 ![image](https://user-images.githubusercontent.com/98755378/215795772-0692ebe6-f98d-43fe-973a-aeee82fdad7f.png)
 
+Pop-up:
+![image](https://user-images.githubusercontent.com/98755378/215796630-81121f3e-7ca9-4c19-9624-a48f444971cd.png)
+
+Recipes Menu:
+![image](https://user-images.githubusercontent.com/98755378/215797012-f155125b-021c-472c-b5b2-c8310cb17b6d.png)
+
+Footer:
+![image](https://user-images.githubusercontent.com/98755378/215797181-83d518ca-941c-4e1f-8c46-79b33dbb2352.png)
+
 
 
 Site Map:
 ![sitemap](https://user-images.githubusercontent.com/98755378/215793717-e90ea147-081a-419e-ba2a-0f548997683c.png)
+
+
 
 
 
