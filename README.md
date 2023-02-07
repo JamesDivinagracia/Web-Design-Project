@@ -66,7 +66,12 @@ Site Map:
 ![sitemap](https://user-images.githubusercontent.com/98755378/215793717-e90ea147-081a-419e-ba2a-0f548997683c.png)
 
 
+Importance of copyright issues:
 
+https://enterprise.gov.ie/en/what-we-do/innovation-research-development/intellectual-property/copyright/
+![image](https://user-images.githubusercontent.com/98755378/217207368-6f0726f2-2642-4f47-9792-8c00f2c465e2.png)
+Here's the Irish link for copyright. To combat copyright I'll be using open source software or create designs from scratch, all the software used 
+would be mentioned in a "credits" page which is located in the footer. 
 
 
 
