@@ -1,6 +1,6 @@
 # Web-Design-Project
 
-https://github.com/JamesDivinagracia/Web-Design-Project/edit/main/README.md
+(https://github.com/JamesDivinagracia/Web-Design-Project)
 
 
 This project is for my college. It's a "Nutrition website aimed at children".
