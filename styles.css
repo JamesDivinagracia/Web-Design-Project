@@ -1,0 +1,656 @@
+
+/* full webpage height */
+html{
+
+    height: 100%;
+    background-color: #48CFAE;
+
+}
+
+/* image logo */
+img.eat{
+
+    height: 60px;
+    width: 60px;
+    min-height: 100%;
+    min-width: 70px;
+    padding:5px;
+    justify-content: center;
+
+}
+
+
+/* 0 margin and padding ensures no gaps */
+/* min-height 100% ensures full height for the entire body */
+body{
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+
+    
+    
+}
+
+
+/* stops scrolling (remove using javascript to show footer */
+/* and allow scrolling */
+body#gameContent{
+
+    overflow: hidden;
+
+}
+
+/* Header/Footer lines */
+hr{
+
+    border: 3px solid #544F4F;
+    margin: 0;
+    background-color: #48CFAE;
+    padding: 0;
+    position: absolute;
+    min-width: 99.67%;
+
+
+
+
+}
+
+/* specific footer line attributes */
+hr#footerLine{
+
+    margin-top:5px;
+
+}
+
+/* full content (all the content  */
+/* between header and footer). */
+div.content {
+
+    height: 5000px;
+    min-height: 100%;
+    padding:3% 0 20% 0;
+    display: block;
+    
+    
+}
+
+#sitemap{
+
+    margin: auto auto auto 360px;
+    padding:2% 0 2% 0;
+
+}
+
+#meatContent{
+
+    background-color: #af3a3a;
+
+}
+
+#vegContent{
+
+    background-color: #544F4F;
+
+}
+
+#carbsContent{
+
+    background-color: bisque;
+
+}
+
+div.heading{
+
+    background-color: #919191;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: max-content;
+    position: fixed;
+
+}
+
+div.headerContainer{
+
+    display: flex;
+
+}
+
+
+/* Website title in header */
+h1{
+
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 100;
+    padding: 0;
+    padding-left: 3px;
+    margin: auto;
+    margin-left: 0;
+
+}
+
+h3{
+
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fffdf5;
+
+}
+
+/* common texts */
+p{
+
+    font-family: 'Open Sans', cans-serif;
+    color: #544F4F;
+
+
+}
+
+/* Navigation buttons */
+div.headButtons{
+
+    display: flex;
+    flex-direction: row;
+    min-width: 20%;
+    
+}
+
+h3.headButtons{
+
+    font-family: 'Open Sans', cans-serif;
+    color: white;
+    align-self: center;
+    width: 50%;
+
+}
+
+/* Hyperlink format */
+/* text-decoration: none removes the underline as default  */
+a{
+    
+    width: max-content;
+    color: white;
+    text-decoration: none;
+
+}
+
+/* When cursor is on it */
+a:hover{
+
+    color: #48CFAE;
+
+}
+
+/* gives the color of hover when selected */
+#currentPage{
+
+    color: #48CFAE;
+
+}
+
+/* Content container divs */
+
+/* The container for the web game */
+div.game {
+    
+    width: 930px;
+    margin:auto;
+
+    
+}
+
+h1.gameMessage{
+
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 0.9rem;
+    font-weight:900;
+    text-shadow: 3px 6px #36977f;
+    padding:0  30px 10px 10px;
+    display: inline;
+    white-space: nowrap;
+    
+}
+
+h1#exclaim{
+
+    font-size: 70px;
+    letter-spacing: 3.5rem;
+    padding: 0;
+    
+
+}
+
+video{
+    padding: 2% 0 20 0;
+    border-radius: 2%;
+}
+
+/* css styles for the recipe page */
+div.recipeContainer{
+
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content:center;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    padding-bottom: 0;
+    margin:0;
+    padding-top: 4%;
+    
+
+}
+
+div.recipeDivs{
+
+    padding-top: 5px;
+    padding-bottom: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 200px;
+    height: 99%;
+    min-width: max-content;
+    max-width: 25%;
+    border-radius: 2%;
+
+}
+
+.recipeList{
+
+    color:#919191;
+    line-height: 3rem;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+
+    
+    
+}
+
+.recipelistveg{
+
+    color:white;
+    line-height: 3rem;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+a.recipelistveg:hover{
+
+    color:#919191;
+}
+
+div#meat{
+
+    margin-right:8%;
+    margin-left:10%;
+    background: #af3a3a url(meat.png) no-repeat center;
+    background-size: contain;
+
+
+}
+
+div#veg{
+
+    margin:0;
+    border: 3px solid #544F4F;
+    background: url(veg.png) no-repeat center;
+    background-size: contain;
+
+}
+#veg{
+    color: #544F4F;
+}
+
+div#carbs{
+
+    
+    margin-right:10%;
+    margin-left:8%;
+    background:  bisque url(carb.png) no-repeat center;
+    background-size: contain;
+
+}
+
+/* General recipe dishes attributes */
+
+
+.dish{
+
+    padding-top: 5px;
+    padding-bottom: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    width:80%;
+    height: fit-content;
+    max-width: fit-content;
+    border-radius: 2%;
+    background-color: #919191;
+
+}
+
+#dishTitle{
+
+font-size: 60px;
+
+}
+
+.dishImg{
+
+    margin: 5% auto 5% 70%;
+    height: 320px;
+    width: 320px;
+    border-radius: 2%;
+}
+
+.dishImgLeft{
+
+margin:20px;
+
+}
+
+.dishList{
+
+    color:black;
+    
+
+}
+
+/* meat recipes */
+
+.meatHover:hover{
+
+    color: #af3a3a;
+    
+    }
+
+#currentMeat{
+
+    color:#af3a3a;
+
+}
+
+.meatContent{
+
+    background-color: #af3a3a;
+
+}
+
+/* vegetable recipes */
+
+.vegDish{
+
+    width: 80%;
+    
+}
+
+/* carb recipes */
+
+.carbHover:hover{
+
+    color: bisque;
+    
+    }
+#currentCarb{
+
+    color:bisque;
+
+}
+
+.carbContent{
+
+        background-color: bisque;
+    
+    }
+
+
+/* form style for the adult page */
+
+div#logiBack{
+
+    height: 100%;
+    width: 100%;
+    padding: 0.5% 0 20% 0;
+    background:url(logiback.png) repeat center;
+    background-size: contain;
+
+
+}
+
+
+div.loginForm{
+
+    height: 600px;
+    width: 350px;
+    margin: 4% auto auto auto;
+    border: #302e2e 5px solid;
+    border-radius:2%;
+    background-color: #48CFAE;
+    padding: 30px;
+    color: #544F4F;
+    font-family: sans-serif;
+
+
+}
+
+img.avatar{
+
+width: 200px;
+margin: 30px auto 70px auto;
+display: block;
+padding:20px 0 20px 0;
+
+}
+
+input{
+
+    display: inline;
+    white-space: nowrap;
+    width:82%;
+    background-color: bisque;
+    border-radius: 5px;
+    
+
+}
+p.logiText{
+
+    font-size: 12px;
+    font-weight: 100;
+    width: fit-content;
+    margin:0;
+    padding:5px 0 2px 0;
+
+
+}
+
+input[type="checkbox"]{
+
+    width: fit-content;
+    
+    
+
+}
+
+label#remember{
+
+    display: flex;
+    justify-content: flex-end;
+    color: #544F4F;
+
+}
+
+h1#welcome{
+
+margin: auto;
+
+}
+
+
+/* footer */
+
+footer{
+
+
+    background-color:#919191;
+    min-height: 240px;
+    min-width: 100%;
+    width: 100%;
+    position:sticky;
+    bottom: -350px;
+    
+    /* overflow: hidden; */
+
+}
+
+div.footerContainer{
+
+    padding-top: 2%;
+    display:flex;
+    flex-direction: row;
+    bottom: 0;
+    margin-bottom: 1%;
+    justify-content:space-between;
+    
+
+}
+
+div.contacts{
+
+    background-color: #A4A0A0;
+    width: auto;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    padding: 10px;
+    line-height: 50px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    border-radius: 2%;
+}
+
+.contactInfo{
+
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+#logoDiv{
+
+    
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+
+}
+
+#contactText{
+
+    flex-direction: column;
+    width: fit-content;
+    padding-left: 10px;
+    
+
+}
+
+.logos{
+
+    text-align: left;
+    padding-inline: 2px 2px;
+    margin:auto;
+
+}
+
+img#fb{
+
+    width: 50px;
+    margin: 0 0 -20px 4px;
+
+}
+
+img#insta{
+
+    width:35px;
+    margin: 10px 10px 0 10px ;
+    
+    
+
+}
+
+img#gh{
+
+    width:55px;
+    margin: 10px -9px -10px 1px;
+
+}
+
+img#twt{
+
+    width: 40px;
+    margin: 0 0 9px 9px;
+    
+    
+    
+}
+
+div.about{
+
+    background: url(logo2.png) no-repeat center;
+    background-size: contain;
+    text-align: center;
+    padding: 10px;
+    width: 20%;
+    height: max-content;
+
+}
+
+p.about{
+
+    text-align: center;
+    line-height: 3vh;
+    padding: 1vw;
+    
+    
+}
+
+div.navigation{
+
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    margin-right: 2%;
+
+}
+
+p.navigation{
+
+    text-align: center;
+    margin-top: 3%;
+
+}
+
+/* copyright text */
+p#rights{
+
+    text-align: right;
+    margin-top: 20%;
+
+}
+
+img#copyRight{
+
+    width: 20px;
+    color: #302e2e;
+
+}
